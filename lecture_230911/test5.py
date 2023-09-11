@@ -1,3 +1,4 @@
+# stack 문제
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -14,4 +15,4 @@ class Solution:
                 
                 return False
         return len(stack) == 0
-        
+
