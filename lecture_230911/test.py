@@ -1,3 +1,5 @@
+# list 구조형
+
 def solution(nums, target) :
     n = len(nums)
     for i in range(n) :

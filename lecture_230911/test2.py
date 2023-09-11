@@ -1,3 +1,6 @@
+# list 구조형
+# 정렬 후 문제풀이
+
 class Solution:
     def towSum(self, nums, target):
         sorted_nums = nums[:]
