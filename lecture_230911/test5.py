@@ -1,6 +1,5 @@
 # stack 문제
-class Solution:
-    def isValid(self, s: str) -> bool:
+def Solution(s):
         stack = []
         parentheses = {
             "(" : ")",
@@ -8,7 +7,7 @@ class Solution:
             "{" : "}"
         } 
         
-        for i in pares : 
+        for i in s : 
             if i in parentheses.keys():
                 stack.append(i)
             elif (not stack) or (parentheses[stack.pop()] != i):
@@ -16,3 +15,4 @@ class Solution:
                 return False
         return len(stack) == 0
 
+print(Solution(s = "(()[]{}" ))
